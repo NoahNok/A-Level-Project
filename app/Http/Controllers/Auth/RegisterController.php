@@ -65,7 +65,11 @@ class RegisterController extends Controller
     {
 
         $user =  User::create([
+<<<<<<< HEAD
             'name' => strip_tags($data['name']),
+=======
+            'name' => $data['name'],
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);

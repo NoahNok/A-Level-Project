@@ -149,7 +149,11 @@ class UserController extends Controller
 
         $userData['id'] = $user->id;
         $userData['firstName'] = $nameSplit[0];
+<<<<<<< HEAD
         $userData['lastName'] = count($nameSplit) > 1 ? $nameSplit[1] : "-";
+=======
+        $userData['lastName'] = $nameSplit[1];
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
         $userData['email'] = $user->email;
         $userData['form'] = $user->form;
         $userData['year'] = $user->year;

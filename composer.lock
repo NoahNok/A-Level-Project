@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "db0d58918334eb4c2417007d552871f5",
+=======
+    "content-hash": "abf9d5a1786f6a4434c9212304030dad",
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1585,6 +1589,7 @@
         },
         {
             "name": "spatie/laravel-permission",
+<<<<<<< HEAD
             "version": "3.2.0",
             "source": {
                 "type": "git",
@@ -1595,6 +1600,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/e3821559c69b2b1ea8fdd967fa89ba13a01ead78",
                 "reference": "e3821559c69b2b1ea8fdd967fa89ba13a01ead78",
+=======
+            "version": "3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-permission.git",
+                "reference": "5bac2326fe73c7da9a3ae07dcf5fb44224e45f6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-permission/zipball/5bac2326fe73c7da9a3ae07dcf5fb44224e45f6f",
+                "reference": "5bac2326fe73c7da9a3ae07dcf5fb44224e45f6f",
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
                 "shasum": ""
             },
             "require": {
@@ -1605,7 +1622,11 @@
                 "php": "^7.2"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "orchestra/testbench": "^3.8|^4.0",
+=======
+                "orchestra/testbench": "^3.8",
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
                 "phpunit/phpunit": "^8.0",
                 "predis/predis": "^1.1"
             },
@@ -1649,7 +1670,11 @@
                 "security",
                 "spatie"
             ],
+<<<<<<< HEAD
             "time": "2019-10-16T19:25:56+00:00"
+=======
+            "time": "2019-09-02T14:57:53+00:00"
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4380,6 +4405,7 @@
             "authors": [
                 {
                     "name": "Geert Bergman",
+<<<<<<< HEAD
                     "homepage": "http://www.scrivo.org/",
                     "role": "Project Author"
                 },
@@ -4392,6 +4418,20 @@
                     "name": "Martin Folkers",
                     "homepage": "https://twobrain.io",
                     "role": "Contributor"
+=======
+                    "role": "Project Author",
+                    "homepage": "http://www.scrivo.org/"
+                },
+                {
+                    "name": "Vladimir Jimenez",
+                    "role": "Contributor",
+                    "homepage": "https://allejo.io"
+                },
+                {
+                    "name": "Martin Folkers",
+                    "role": "Contributor",
+                    "homepage": "https://twobrain.io"
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
                 }
             ],
             "description": "Server side syntax highlighter that supports 185 languages. It's a PHP port of highlight.js",

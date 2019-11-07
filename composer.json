@@ -14,7 +14,11 @@
         "laravel/telescope": "^2.1",
         "laravel/tinker": "^1.0",
         "laravel/ui": "^1.0",
+<<<<<<< HEAD
         "spatie/laravel-permission": "^3.2"
+=======
+        "spatie/laravel-permission": "^3.0"
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
     },
     "require-dev": {
         "facade/ignition": "^1.4",

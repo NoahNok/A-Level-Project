@@ -80,7 +80,11 @@
               <thead>
                 <tr>
                   <th scope="col">Year <span class="badge badge-primary" @click="newYear">New</span></th>
+<<<<<<< HEAD
                   <th scope="col">Updated</th>
+=======
+                  <th scope="col">Created</th>
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
                 </tr>
               </thead>
 

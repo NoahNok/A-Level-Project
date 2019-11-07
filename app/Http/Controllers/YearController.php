@@ -93,7 +93,11 @@ class YearController extends Controller
       $y = array();
       $y['id'] = $year->id;
       $y['year'] = $year->year;
+<<<<<<< HEAD
       $y['created'] = date('d/m/y', strtotime($year->updated_at));
+=======
+      $y['created'] = date('d/m/y', strtotime($year->created_at));
+>>>>>>> 4f7a21ef2a00060a985e794a657a7e987bb30f9d
       array_push($data, $y);
     }
     return response()->json($data);
