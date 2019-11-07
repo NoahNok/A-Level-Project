@@ -1,0 +1,13 @@
+[v-cloak] {
+    display: none;
+}
+
+td[role], option, select {
+    text-transform: capitalize;
+}
+
+
+.badge:hover {
+    cursor: pointer;
+    filter: saturate(0.5);
+}

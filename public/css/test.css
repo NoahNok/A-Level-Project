@@ -1,0 +1,72 @@
+@font-face {
+  font-family: os-bold;
+  src: url("/OstrichSans-Bold.otf");
+}
+@font-face {
+  font-family: os-round;
+  src: url("/OstrichSansRounded-Medium.otf");
+}
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+.panel {
+  width: 100vw;
+}
+.panel.p-50 {
+  background-color: white;
+}
+
+.text.l-main {
+  font-family: os-bold;
+  font-size: 2.5rem;
+}
+.text.l-alt {
+  font-family: os-round;
+  font-size: 2.75rem;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  padding: 0;
+  margin: 2vh 2vw;
+  justify-content: space-between;
+  list-style: none;
+  font-family: os-round;
+  font-size: 1.65rem;
+}
+.f-center {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.has-border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.h-5 {
+  height: 5vh;
+}
+
+.h-50 {
+  height: 50vh;
+}
+
+.h-60 {
+  height: 60vh;
+}
+
+.h-75 {
+  height: 75vh;
+}
+
+/*# sourceMappingURL=test.css.map */
